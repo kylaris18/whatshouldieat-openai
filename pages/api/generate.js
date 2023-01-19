@@ -46,7 +46,7 @@ export default async function (req, res) {
       imgUrl = image.data.data[0].url;
     }
     
-    res.status(200).json({ result: completion.data.choices[0].text, imgUrl: imgUrl });
+    res.status(200).json({ result: completion.data.choices[0].text.trim(), imgUrl: imgUrl });
   } catch(error) {
     // Consider adjusting the error handling logic for your use case
     if (error.response) {

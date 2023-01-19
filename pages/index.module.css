@@ -74,6 +74,7 @@
 }
 
 .main .result img{
+  margin-top: 16px;
   float: right;
   width: 500px;
 }
