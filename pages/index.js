@@ -47,7 +47,7 @@ export default function Home() {
           <input
             type="text"
             name="dish"
-            placeholder="Enter any ingredients you have in your ref."
+            placeholder="List down any ingredients you have in your ref."
             value={dishInput}
             onChange={(e) => setDishInput(e.target.value)}
           />
